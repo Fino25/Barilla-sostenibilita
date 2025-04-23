@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Dichiarazione del set di caratteri per il documento -->
+    <meta charset="UTF-8">
+    <!-- Configurazione per garantire che il sito sia responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barilla - Report di Sostenibilità</title>
+    <!-- Link al file CSS per la definizione dello stile -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importazione del font Open Sans da Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Intestazione del sito con titolo e breve descrizione -->
+    <header>
+        <div class="container">
+            <h1>Barilla: Sostenibilità e Trasparenza</h1>
+            <p>Scopri il nostro impegno verso un futuro sostenibile.</p>
+        </div>
+    </header>
+    
+<!-- Contenuto principale del sito -->
+    <main>
+        <!-- Sezione introduttiva che descrive l'impegno di Barilla -->
+        <section id="about" class="container">
+            <h2>Chi siamo</h2>
+            <p>
+                Barilla si impegna a costruire un futuro migliore attraverso iniziative di sostenibilità ambientale, sociale ed economica.
+                Scarica i nostri report per saperne di più sui nostri progressi e obiettivi.
+            </p>
+        </section>
+
+        <!-- Sezione per il download dei report -->
+        <section id="downloads" class="container">
+            <h2>Scarica i nostri report</h2>
+            <ul>
+                <!-- Ogni elemento della lista rappresenta un report scaricabile -->
+                <li>
+                    <h3>Report di Sostenibilità 2023</h3>
+                    <p>Scopri i risultati ottenuti e i nuovi obiettivi di sostenibilità per il 2023.</p>
+                    <!-- Collegamento per il download del report in formato PDF del report di sostenibilità dell'anno 2023 -->
+                    <a href="report_2023.pdf" download class="download-btn">Scarica PDF</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Modulo di contatto per comunicazioni con l'azienda -->
+        <section id="contact" class="container">
+            <h2>Contattaci</h2>
+            <form action="#" method="post">
+                <!-- Campo per il nome -->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <!-- Campo per l'email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- Campo per il messaggio -->
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <!-- Pulsante di inviare il modulo -->
+                <button type="submit" class="submit-btn">Invia</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer con informazioni aggiuntive -->
+    <footer>
+        <div class="container">
+            <p>© 2021 Barilla G. e R. Fratelli S.p.A - Tutti i diritti riservati.</p>
+            <!-- Link per contattare Barilla via email -->
+            <p><a href="mailto:info@barilla.com">info@barilla.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,123 @@
+ /* Stili generali per tutto il sito */
+ body {
+    font-family: 'Open Sans', sans-serif; /* Imposta il font principale */
+    line-height: 1.6; /* Altezza delle righe per migliorare la leggibilità */
+    margin: 0; /* Rimuove i margini predefiniti */
+    padding: 0; /* Rimuove i padding predefiniti */
+    color: #333; /* Colore del testo */
+    background-color: #f9f9f9; /* Sfondo chiaro per un design pulito */
+}
+
+/* Contenitore principale */
+.container {
+    max-width: 1200px; /* Larghezza massima */
+    margin: 0 auto; /* Centra il contenuto */
+    padding: 0 20px; /* Spaziatura interna laterale */
+}
+
+/* Intestazione */
+header {
+    background-color: #00539C; /* Colore di sfondo blu */
+    color: #fff; /* Testo bianco */
+    text-align: center; /* Centra il testo*/
+    padding: 40px 20px; /* Spaziatura interna */
+}
+
+header h1 {
+    margin: 0; /* Rimuove il margine superiore e inferiore*/
+    font-size: 2.5em; /* Dimensione del titolo */
+}
+
+header p {
+    font-size: 1.2em; /* Dimensione del testo descrittivo*/
+}
+
+/* Stili per le sezioni principali */
+section {
+    margin: 40px 0; /* Spaziatura sopra e sotto le sezioni */
+}
+
+section h2 {
+    font-size: 2em; /* Dimensione del titolo delle sezioni */
+    margin-bottom: 20px;
+    color: #00539C; /* Colore blu del titolo */
+}
+
+/* Lista dei report */
+#downloads ul {
+    list-style: none; /* Rimuove i bullet points */
+    padding: 0;
+}
+
+#downloads li {
+    background: #fff; /* Sfondo bianco per i report */
+    margin: 20px 0; /* Spaziatura tra gli elementi*/
+    padding: 20px;
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+#downloads h3 {
+    font-size: 1.5em; /* Dimensione del titolo dei report */
+    margin-bottom: 10px; /* Spaziatura tra il titolo e il paragrafo */
+    color: #333; /* Colore del testo del titolo (grigio scuro) */
+}
+
+/* Pulsanti di download */
+.download-btn {
+    display: inline-block; /* Pulsante come elemento inline */
+    background-color: #00539C; /* Colore blu */
+    color: #fff; /* Testo bianco */
+    padding: 10px 20px; /* Spaziatura interna */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s ease; /* Effetto hover */
+}
+
+.download-btn:hover {
+    background-color: #003F73; /* Colore più scuro al passaggio del mouse */
+}
+
+/* Modulo di contatto */
+form label {
+    display: block; /* Etichette sopra i campi */
+    margin: 10px 0 5px; /* Spaziatura tra etichetta e campo */
+    font-weight: 600; /* Testo in grassetto */
+}
+
+form input, form textarea {
+    width: 100%; /* Larghezza piena */
+    padding: 10px; /* Spaziatura interna*/
+    margin-bottom: 20px; /*  Spaziatura tra i campi */
+    border: 1px solid #ccc; /* Bordo sottile*/
+    border-radius: 5px; /* Angoli arrotondati */
+    font-size: 1em; /* Dimensione del testo */
+}
+
+/* Pulsante di invio */
+.submit-btn {
+    background-color: #00539C; /* Colore blu */
+    color: #fff; /* Testo bianco */
+    padding: 10px 20px; /* Spaziatura interna */
+    border: none; /* Nessun bordo */
+    border-radius: 5px; /* Angoli arrotondati */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    transition: background-color 0.3s ease; /* Effetto di transizione */
+}
+
+.submit-btn:hover {
+    background-color: #003F73; /* Cambia colore al passaggio del mouse */
+}
+
+/* Footer */
+footer {
+    background-color: #E8E8E8; /* Sfondo grigio chiaro */
+    text-align: center; /* Testo centrato*/
+    padding: 20px 0; /* Spaziatura verticale*/
+    color: #333; /* Colore del testo */
+}
+
+footer a {
+    color: #00539C;
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
